@@ -9,6 +9,7 @@ public class A1 {
 			sum += i;
 		}
 		 System.out.println("Sum of all numbers = " + sum);
+		 System.out.println("Github");
 	}
 
 }
