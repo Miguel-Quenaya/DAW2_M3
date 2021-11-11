@@ -1,0 +1,9 @@
+
+public class A1_ex9 {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+		//x = 15
+	}
+
+}

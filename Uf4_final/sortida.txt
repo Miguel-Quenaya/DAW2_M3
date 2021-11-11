@@ -1,0 +1,10 @@
+Nom agrupació : Rafaga
+ Tipus : Banda
+ Ubicació : Argentina
+ num musics : 3
+ num majors de 65 : 2
+Nom agrupació : LosSociosDelRitmo
+ Tipus : Banda
+ Ubicació : Bolivia
+ num musics : 2
+ num majors de 65 : 1

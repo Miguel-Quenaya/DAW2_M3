@@ -1,0 +1,38 @@
+import java.util.Scanner;
+
+public class A2 {
+	static boolean casoDePrueba(Scanner teclado) {
+		
+		int n = teclado.nextInt();
+		int n2= n, res =0;
+		String n2s ="";
+		
+		if (n == 0) {
+			return false;
+		}
+		while(n2>10) {
+			res = n2%10;
+			n2 = n2/10;
+			n2s += "" + res;
+		}
+		n2s += "" + n2;
+		n2 = Integer.parseInt(n2s);
+		
+		if((n + n2)/2 == 0 ) {
+			System.out.println("NO");
+		}else {
+			System.out.println("SI");
+		}
+		
+		
+		return true;
+	}
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+		Scanner teclado = new Scanner(System.in);
+		while (casoDePrueba(teclado));
+		teclado.close();
+	}
+
+}
